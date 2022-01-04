@@ -35,13 +35,14 @@ inaccuracies.
 '''
 sensor.sea_level_pressure = 1013.25
 
-#Define the pins for the RFM9x transmitter
-#CLK = GP2
-#MOSI = GP3
-#MISO = GP4
-#CS = GP6
-#Reset = GP7
-#Then define the paramters for sending the message payload
+'''
+Define the pins for the RFM9x transmitter
+CLK = GP2
+MOSI = GP3
+MISO = GP4
+CS = GP6
+Reset = GP7
+Then define the paramters for sending the message payload
 '''
   
 spi = busio.SPI(clock=board.GP2, MOSI=board.GP3, MISO=board.GP4)
@@ -52,7 +53,6 @@ rfm9x = adafruit_rfm9x.RFM9x(spi, cs, reset, 433.0)
 def send(message):
     rfm9x.send(message)
     
-'''
 #This bit now send the data
 print ("RFM9x radio ready")
 while True:
