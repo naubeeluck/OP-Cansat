@@ -1,1 +1,5 @@
-here isa info 
+# Electrical Subsystem
+
+- [x] Block diagram
+- [ ] Schematic
+- [ ] PCB Layouts
