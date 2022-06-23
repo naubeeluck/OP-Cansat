@@ -1,0 +1,152 @@
+{
+    "frameEnd": "",
+    "frameStart": "",
+    "groups": [
+        {
+            "datasets": [
+                {
+                    "alarm": 0,
+                    "fft": false,
+                    "fftSamples": 128,
+                    "graph": false,
+                    "led": false,
+                    "log": false,
+                    "max": 0,
+                    "min": 0,
+                    "title": "Mission Time",
+                    "units": "",
+                    "value": "%2",
+                    "widget": ""
+                },
+                {
+                    "alarm": 30,
+                    "fft": false,
+                    "fftSamples": 128,
+                    "graph": false,
+                    "led": false,
+                    "log": false,
+                    "max": 120,
+                    "min": 0,
+                    "title": "Mission Date",
+                    "units": "",
+                    "value": "%3",
+                    "widget": ""
+                },
+                {
+                    "alarm": 0,
+                    "fft": false,
+                    "fftSamples": 1024,
+                    "graph": false,
+                    "led": false,
+                    "log": false,
+                    "max": 0,
+                    "min": 0,
+                    "title": "CanSat Id:",
+                    "units": "",
+                    "value": "%1",
+                    "widget": ""
+                }
+            ],
+            "title": "Mission Status",
+            "widget": ""
+        },
+        {
+            "datasets": [
+                {
+                    "alarm": 35,
+                    "fft": false,
+                    "fftSamples": 128,
+                    "graph": true,
+                    "led": false,
+                    "log": false,
+                    "max": 35,
+                    "min": 0,
+                    "title": "Temperature",
+                    "units": "°C",
+                    "value": "%4",
+                    "widget": ""
+                },
+                {
+                    "alarm": 1100,
+                    "fft": false,
+                    "fftSamples": 128,
+                    "graph": true,
+                    "led": false,
+                    "log": false,
+                    "max": 1100,
+                    "min": 900,
+                    "title": "Pressure",
+                    "units": "KPa",
+                    "value": "%5",
+                    "widget": ""
+                },
+                {
+                    "alarm": 5,
+                    "fft": false,
+                    "fftSamples": 1024,
+                    "graph": false,
+                    "led": false,
+                    "log": false,
+                    "max": 15,
+                    "min": 0,
+                    "title": "Satellites",
+                    "units": "",
+                    "value": "%9",
+                    "widget": "bar"
+                }
+            ],
+            "title": "Sensor Readings",
+            "widget": ""
+        },
+        {
+            "datasets": [
+                {
+                    "alarm": 0,
+                    "fft": false,
+                    "fftSamples": 1024,
+                    "graph": false,
+                    "led": false,
+                    "log": false,
+                    "max": 0,
+                    "min": 0,
+                    "title": "Latitude",
+                    "units": "°",
+                    "value": "%6",
+                    "widget": "lat"
+                },
+                {
+                    "alarm": 0,
+                    "fft": false,
+                    "fftSamples": 1024,
+                    "graph": false,
+                    "led": false,
+                    "log": false,
+                    "max": 0,
+                    "min": 0,
+                    "title": "Longitude",
+                    "units": "°",
+                    "value": "%7",
+                    "widget": "lon"
+                },
+                {
+                    "alarm": 500,
+                    "fft": false,
+                    "fftSamples": 1024,
+                    "graph": true,
+                    "led": false,
+                    "log": false,
+                    "max": 500,
+                    "min": 0,
+                    "title": "Altitude",
+                    "units": "m",
+                    "value": "%8",
+                    "widget": "alt"
+                }
+            ],
+            "title": "GPS",
+            "widget": "map"
+        }
+    ],
+    "separator": "",
+    "title": "%1"
+}
